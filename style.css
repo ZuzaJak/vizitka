@@ -1,5 +1,7 @@
 body {
   background-color: rgba(240, 207, 23, 0.425);
+  color: rgba(0, 0, 0, 0.76);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
   display: flex;
@@ -8,10 +10,14 @@ body {
   flex-direction: column;
 }
 h1 {
-  padding: 40px;
+  padding-top: 20px;
 }
 img {
   padding: 40px;
   width: 200px;
   border-radius: 50%;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
 }
