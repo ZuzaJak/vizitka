@@ -1,3 +1,19 @@
 body {
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(240, 207, 23, 0.425);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  display: inline;
+  padding: 40px;
+}
+img {
+  padding: 40px;
+  display: inline;
+  width: 200px;
+  border-radius: 50%;
 }
