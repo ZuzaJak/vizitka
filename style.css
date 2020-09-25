@@ -1,7 +1,30 @@
+body,
+html {
+  height: 100%;
+}
 body {
-  background-color: rgba(240, 207, 23, 0.425);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+  background: #fefcea; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #fefcea 0%,
+    #f1da36 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #fefcea 0%,
+    #f1da36 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #fefcea 0%,
+    #f1da36 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+  background-attachment: fixed;
   color: rgba(0, 0, 0, 0.76);
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Rubik', sans-serif;
 }
 .container {
   display: flex;
@@ -9,15 +32,42 @@ body {
   align-items: center;
   flex-direction: column;
 }
-h1 {
-  padding-top: 20px;
-}
 img {
   padding: 40px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 70%;
 }
-p {
+h2 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.menu .item {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: rgba(102, 51, 153, 0.6);
+  border: solid 2px rebeccapurple;
+}
+.menu .item:hover {
+  background-color: rebeccapurple;
+  transition: 0.3s;
 }
