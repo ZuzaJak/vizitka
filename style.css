@@ -1,6 +1,7 @@
 body,
 html {
-  height: 100%;
+  height: 100vh;
+  margin: 0;
 }
 body {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
@@ -32,10 +33,28 @@ body {
   align-items: center;
   flex-direction: column;
 }
-img {
+.photo {
   padding: 40px;
   width: 200px;
   border-radius: 70%;
+}
+.icon {
+  width: 70px;
+  padding: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .icon {
+    width: 100px;
+  }
+}
+.icondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
 }
 h2 {
   font-size: 20px;
@@ -69,8 +88,8 @@ h2 {
   color: whitesmoke;
   font-weight: 500;
   border-radius: 50px;
-  background-color: rgba(102, 51, 153, 0.7);
-  border: solid 2px rebeccapurple;
+  background-color: rgba(255, 68, 0, 0.75);
+  border: solid 2px rgba(255, 68, 0, 0.8);
 }
 @media only screen and (min-width: 600px) {
   .menu .item {
@@ -79,6 +98,25 @@ h2 {
   }
 }
 .menu .item:hover {
-  background-color: rebeccapurple;
-  transition: 0.3s;
+  background-color: rgb(24, 147, 248, 0.75);
+  border: solid 2px rgb(24, 147, 248, 0.8);
+  transition: 0.4s;
+}
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: end;
+}
+.credits {
+  height: 40px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.pixelperfect,
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
