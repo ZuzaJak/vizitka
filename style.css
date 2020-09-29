@@ -25,6 +25,7 @@ body {
   padding: 40px;
   width: 200px;
   border-radius: 70%;
+  opacity: 70%;
 }
 .icon {
   width: 70px;
@@ -69,15 +70,14 @@ h2 {
   }
 }
 .menu .item {
-  padding: 15px;
+  padding: 17px;
   margin-bottom: 20px;
   text-align: center;
   text-decoration: none;
   color: whitesmoke;
   font-weight: 500;
-  border-radius: 50px;
   background-color: rgba(255, 68, 0, 0.75);
-  border: solid 2px rgba(255, 68, 0, 0.8);
+  outline: solid 2px rgba(255, 68, 0, 0.8);
 }
 @media only screen and (min-width: 600px) {
   .menu .item {
@@ -86,9 +86,9 @@ h2 {
   }
 }
 .menu .item:hover {
-  background-color: rgb(24, 147, 248, 0.75);
-  border: solid 2px rgb(24, 147, 248, 0.8);
-  transition: 0.4s;
+  background-color: rgba(255, 68, 0, 0.75);
+  outline: solid 10px rgba(255, 68, 0, 0.8);
+  transition: outline 0.5s linear;
 }
 footer {
   padding: 30px;
