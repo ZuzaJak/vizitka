@@ -1,5 +1,6 @@
 body,
 html {
+  width: 100%;
   height: 100%;
   margin: 0;
 }
@@ -16,16 +17,18 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .container {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .photo {
-  padding: 40px;
+  margin: 40px;
   width: 200px;
+  border: solid 1px rgba(255, 68, 0, 0.6);
   border-radius: 70%;
-  opacity: 70%;
+  opacity: 80%;
 }
 .icon {
   width: 70px;
