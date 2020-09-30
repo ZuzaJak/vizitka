@@ -56,7 +56,7 @@ h2 {
 }
 .contact {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.76);
   font-weight: 500;
 }
 .menu {
