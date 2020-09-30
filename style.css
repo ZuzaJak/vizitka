@@ -1,14 +1,14 @@
 body,
 html {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
 }
 body {
   background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
-    rgba(34, 193, 195, 0.5) 0%,
+    rgba(34, 136, 195, 0.5) 0%,
     rgba(253, 125, 45, 0.5) 100%
   );
   background-attachment: fixed;
@@ -18,6 +18,7 @@ body {
 }
 .container {
   width: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,9 +104,10 @@ footer {
 .credits {
   height: 40px;
   width: 100%;
-  padding: 30px;
-  margin-top: 20px;
+  padding: 40px 0px 10px 0px;
+  font-size: 10px;
   text-align: center;
+  font-style: italic;
 }
 .pixelperfect,
 .link {
