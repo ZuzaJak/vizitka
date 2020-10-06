@@ -1,3 +1,8 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
 body,
 html {
   width: 100%;
@@ -29,15 +34,14 @@ body {
   width: 200px;
   border: solid 1px rgba(34, 136, 195, 0.6);
   border-radius: 70%;
-  opacity: 80%;
 }
 .icon {
-  width: 70px;
+  width: 100px;
   padding: 20px;
 }
 @media only screen and (min-width: 600px) {
   .icon {
-    width: 100px;
+    width: 125px;
   }
 }
 .icondiv {
@@ -104,7 +108,8 @@ footer {
 .credits {
   height: 40px;
   width: 100%;
-  padding: 40px 0px 10px 0px;
+  margin-top: 20px;
+  padding: 40px 0px 40px 0px;
   font-size: 10px;
   text-align: center;
   font-style: italic;
